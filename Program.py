@@ -7,11 +7,11 @@ def temp():
 
 @app.route("/about")
 def about():
-    return render_template("about_page.html")
+    return render_template("about.html")
 
-@app.route("/hello/<name>")
-def hello(name):
-    return render_template("hello_2.html", name=name)
+@app.route("/guides")
+def guides():
+    return render_template("guides.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
