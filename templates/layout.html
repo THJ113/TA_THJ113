@@ -2,11 +2,35 @@
 <head>
   <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400' rel='stylesheet' type='text/css'>
   <link href="static/main.css" rel='stylesheet' type='text/css'>
+  <title>Static Navigation</title>
 </head>
 
 <body>
-<h1>The Websight</h1>
+<h1>TransAdvisor</h1>
 
+
+
+  <div id="navigation">
+      <a href="/">Home</a>
+      <a href="/about">About Us</a>
+      <a href="/guides">Guides</a>
+      <a href="">Reviews</a>
+  </div>
+
+<div id="content">
 {% block body %}{% endblock body %}
+</div>
+
+<br>
+<br>
+
+<div id="footer">
+    <a href="/">Help</a>
+    <a href="/about">Contact Us</a>
+    <a href="/guides">Fun Surprise</a>
+    <a href="">4th Link</a>
+    <a href="">Even More Things</a>
+</div>
+
 </body>
 </html>
